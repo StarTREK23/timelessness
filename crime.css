@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    margin: 2px;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 2fr 3fr 3fr;
+    grid-auto-rows:minmax(150,auto) ;
+    grid-gap: 10px;
+    
+}
+
+@font-face{
+    src:url(fonts/IndieFlower-Regular.ttf);
+    font-family:indiesflower-Regular ;
+}
+@font-face{
+    src: url(fonts/Belanosima-Bold.ttf);
+    font-family: Belanosima-Bold;
+}
+@font-face{
+    src:url(fonts/Belanosima-SemiBold.ttf) ;
+    font-family: Belanosima-SemiBold;
+}
+h1{
+    color: aliceblue;
+    font-size: larger;
+    font-family:indiesflower-Regular, verdana,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    text-shadow: 2px 3px 5px rgb(79, 159, 129), -3px -2px px grey;
+}
+h2{
+    color: aliceblue;
+    font-size: large;font-family:Belanosima-Bold;
+}
+p{
+    color: #415d73;font-size: 20px;font-family:Belanosima-SemiBold ;
+} footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+
+
+

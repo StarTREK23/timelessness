@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ @font-face{
+    src:url(../fonts/IndieFlower-Regular.ttf);
+    font-family:indiesflower-Regular ;
+}
+@font-face{
+    src: url(../fonts/Belanosima-Bold.ttf);
+    font-family: Belanosima-Bold;
+}
+@font-face{
+    src:url(../fonts/Belanosima-SemiBold.ttf) ;
+    font-family: Belanosima-SemiBold;
+}
+ #title{
+    text-align: center;
+ }
+ .container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: space-between;
+    gap: 1.8rem;
+ }
+ #container{
+    border-style: hidden;
+    border-width:2px 3px;
+    border-radius:5px;
+    padding: 10px;
+    margin: 50px; 
+    width: 70%;
+}
+
+h1{
+    color: aliceblue;font-size: larger;font-family:indiesflower-Regular, verdana,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    text-shadow: 2px 3px 5px rgb(79, 159, 129), -3px -2px px grey;
+}
+h2{
+    color: aliceblue;font-size: large;font-family:Belanosima-Bold,verdana;
+}
+h3{
+    color: aliceblue;font-size: larger;font-family:indiesflower-Regular, verdana,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    text-shadow: 2px 3px 5px rgb(79, 159, 129), -3px -2px px grey;
+}
+
+p{
+    color: #415d73;font-size: 20px;font-family:Belanosima-SemiBold ;
+}
+
+ .footer-content{
+    background-color: #262728;
+    width:auto;
+    height: 50px;
+ }
+ .footer-content p{
+    text-align: center;
+ }
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    display: none;
+}
+.slide.active {
+    display: block;
+}
